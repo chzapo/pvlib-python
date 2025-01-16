@@ -14,7 +14,7 @@ VARIABLE_MAP = {
     'hdd': 'heating_degree_days',
     'gdd': 'growing_degree_days',
     'snow': 'snowfall',
-    'snwd': 'snowdepth',
+    'snwd': 'snow_depth',
 
     # metadata names
     'lat': 'latitude',

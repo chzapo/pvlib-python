@@ -112,7 +112,7 @@ def test_get_acis_station_data():
          [-1., -5., -3., np.nan, -99, -99, 5., 0., 68., 0.]],
         columns=['temp_air_max', 'temp_air_min', 'temp_air_average',
                  'temp_air_observation', 'precipitation', 'snowfall',
-                 'snowdepth', 'cooling_degree_days',
+                 'snow_depth', 'cooling_degree_days',
                  'heating_degree_days', 'growing_degree_days'],
         index=pd.to_datetime(['2020-01-10', '2020-01-11', '2020-01-12']),
     )

@@ -27,8 +27,8 @@ def test_read_srml_columns_exist():
     assert 'ghi_0_flag' in data.columns
     assert 'dni_1' in data.columns
     assert 'dni_1_flag' in data.columns
-    assert '7008' in data.columns
-    assert '7008_flag' in data.columns
+    assert 'hor_max_illum' in data.columns
+    assert 'hor_max_illum_flag' in data.columns
 
 
 def test_read_srml_map_variables_false():
